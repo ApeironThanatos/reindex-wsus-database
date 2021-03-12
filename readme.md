@@ -18,4 +18,4 @@ command:
 sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query –i <scriptLocation>\WsusDBMaintenance.sql
 
 The call to sqlcmd needs to have a -I (capital i) parameter, which tells SQL to
-run the script with QUOTED_IDENTIFIERS enab
+run the script with QUOTED_IDENTIFIERS enabled.
